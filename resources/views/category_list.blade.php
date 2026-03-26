@@ -1,12 +1,6 @@
 @extends('layouts.admin')
 @section('title', 'Category List')
 
-@section('actions')
-    <a href="{{ route('category.create') }}" class="btn btn-premium-primary btn-sm">
-        <i class="bi bi-plus-lg me-1"></i> Add Category
-    </a>
-@endsection
-
 @section('content')
     <div class="table-responsive">
         <table class="table table-premium align-middle">
